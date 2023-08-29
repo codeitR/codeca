@@ -31,12 +31,13 @@
 }
 
 .hero_section_button {
-  background-color: #fff;
+  background-color: #c03333;
   border: none;
   padding: 10px 20px;
   border-radius: 4px;
   font-size: 18px;
   font-weight: 800;
+  color: #fff;
 }
 
 .section__two {
@@ -49,7 +50,7 @@
 
 .section__two--left h1 {
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .section__two--left p {
