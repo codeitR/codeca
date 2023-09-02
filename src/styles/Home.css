@@ -100,7 +100,11 @@ date {
 hr {
   margin: 20px 0;
 }
-
+.read__more {
+  /* color: #13bfe2; */
+  padding-left: 4px;
+  font-style: italic;
+}
 .exhibition-image {
   margin-bottom: 20px;
 }
