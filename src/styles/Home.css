@@ -18,6 +18,12 @@
   text-decoration: none;
   color: white;
 }
+
+.bi-list,
+.bi-x {
+  color: white;
+  font-size: 30px;
+}
 .hero_section_text {
   text-align: center;
   color: white;

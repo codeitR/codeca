@@ -27,6 +27,12 @@
   color: black;
 }
 
+.bi-list,
+.bi-x {
+  color: black;
+  font-size: 30px;
+}
+
 .project-logo {
   width: 40px;
 }
