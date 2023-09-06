@@ -21,7 +21,7 @@
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .project-logo {
@@ -104,6 +104,7 @@ hr {
 address {
   font-weight: 300;
   margin: 30px 0;
+  font-size: 16px;
 }
 
 .footer__navbar--options a {
