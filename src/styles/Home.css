@@ -12,10 +12,6 @@
   align-items: center; */
 }
 
-/* .hero_section_left {
-  margin-left: 40px;
-} */
-
 .hero_section_text {
   text-align: center;
   color: white;
@@ -25,25 +21,33 @@
   justify-content: center;
   align-items: center;
 }
-
-.hero_section_title {
-  font-size: 36px;
-  margin: 8px 0;
+.blue-button {
+  font-size: 16px !important;
 }
 
-.hero_section_description {
+.hero_section_title {
+  font-size: 35px;
+  margin: 8px 0;
+  font-weight: 700;
 }
 
 .hero_section_button {
-  border: 2px solid #c8b2b2;
-  background-color: rgba(0, 0, 1, 0);
-  padding: 10px 25px;
+  border: 1px solid #c11411;
+  background-color: transparent;
+  color: #fff;
   border-radius: 25px;
+  padding: 9px 36px;
   font-size: 18px;
-  font-weight: 800;
-  color: #ffffff;
+  font-weight: 500;
+  cursor: pointer;
 }
-
+.hero_section_button:hover {
+  background-color: #9f2321;
+}
+.blue-button:hover {
+  border: 1px solid #9f2321;
+  color: #9f2321;
+}
 .section__two {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -53,58 +57,38 @@
 }
 
 .section__two--left h1 {
-  font-weight: 600;
-  font-size: 35px;
+  font-weight: 550;
+  font-size: 30px;
   color: #374f69;
 }
 
 .section__two--left p {
-  padding-top: 5px;
   font-weight: 300;
-  font-size: 17px;
-}
-
-.section__two--left button {
-  border: 2px solid #6d92b6;
-  padding: 10px 25px;
-  border-radius: 25px;
-  margin-top: 15px;
-  font-size: 15px;
-  background-color: #fff;
+  font-size: 16px;
 }
 
 .exhibition__block {
   display: grid;
   grid-template-columns: 0.25fr 1fr;
 }
+.exhibition__block--right {
+  font-size: 14px;
+  font-weight: 400;
+}
 .exhibition__block--left {
   flex-grow: 1;
 }
 
-.exhibition__block--left h1 {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.exhibition__block--right {
+.involved__block--right {
   flex-grow: 4;
-  font-size: 14px;
-  color: #595858;
+  margin: 2px;
 }
 
-date {
+.date {
   font-size: 12px;
   color: #808080;
 }
 
-hr {
-  margin: 20px 0;
-}
-.read__more {
-  /* color: #13bfe2; */
-  padding-left: 4px;
-  font-style: italic;
-}
 .exhibition-image {
   margin-bottom: 20px;
 }
@@ -125,6 +109,7 @@ hr {
   .section__two--left button {
     font-size: 16px;
   }
+
   .exhibition__block {
     grid-template-columns: 1fr;
   }

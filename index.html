@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page - Museum</title>
     <link rel="stylesheet" href="src/styles/designSystem.css">
     <link rel="stylesheet" href="src/styles/Home.css">
+    <link rel="icon" href="src/images/logo.jpg">
 </head>
 
 <body>
@@ -14,114 +15,125 @@
     <section class="section__hero">
         <nav class="container navbar">
             <div class="logo-text">
-                <img class="project-logo" src="src/images/logo.jpg" alt="">
-                <div class="">SCSMuseum</div>
+                <a href="index.html"><img class="project-logo" src="src/images/logo.jpg" alt=""></a>
+                <div class="text-in-logo">CSMuseum</div>
             </div>
             <div class="nav-items">
-                <a href="index.html">Home</a>
-                <a href="explore.html">Explore</a>
-                <a href="visit.html">Visit</a>
-                <a href="contact.html">Contact</a>
+                <div class="options hidden">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="visit.html">Visit</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="navbar__icons">
+                    <i class="bi bi-list"></i>
+                    <i class="bi bi-x hide"></i>
+                </div>
             </div>
         </nav>
 
         <div class="hero_section_text">
-            <p class="hero_section_description">Interact, play & Explore science together</p>
-            <h1 class="hero_section_title">Sandvika Community Science Museum</h1>
-            <button class="hero_section_button">Get Involved</button>
+            <p class="hero_section_description">Welcome to the</p>
+            <h1 class="hero_section_title">Community Science Museum</h1>
+            <a href="explore.html"><button class="hero_section_button">Explore More..</button></a>
         </div>
     </section>
 
     <section class="section__two container">
         <div class="section__two--left">
-            <h1>Events & Exhibitions</h1>
+            <h1>Get Involved</h1>
             <hr>
-            <p class="exhibition__block--right">Explore together! come join us at the Community Science Museum where
-                we’re committed to making science
-                accessible to all.</p>
-            <p class="exhibition__block--right">
-                Course of human history, science has developed from our early understanding
-                of fire, wind, water, and earth to exploring everything from galaxies far away to the very building
-                blocks of life itself.
-            </p>
-            <button class="section__two--left button">Explore More..</button>
+            <p class="involved__block--right">Explore together! come join us at the Community Science Museum where we’re
+                committed to making science
+                accessible to all of human history.
+            <p class="involved__block--right"> Science has developed from our early understanding of fire, wind,
+                water, and earth to exploring everything from galaxies far away to the very building blocks of life
+                itself.</p>
+            <button class="blue-button">Learn More About Involvement</button>
         </div>
         <div class="section__two--right">
-            <img class="responsive-image" src="./src/images/kids-seeing-museum.jpg" alt="">
+            <img class="responsive-image" src="./src/images/markus-spiske-197281.jpg" alt="kids exploring sketch">
         </div>
     </section>
-    <!--RAMESH in action-->
+
+
     <section class="container">
-        <h1>Exhibitions</h1>
+        <h1>Exihibition</h1>
         <hr>
-        <img src="src/images/exhibition-lab.jpg" class="responsive-image exhibition-image" alt="pano img of lab">
+        <img src="src/images/exhibition-lab.jpg" class="responsive-image exhibition-image" alt="lab picture">
+
         <div class="exhibition__block">
             <div class="exhibition__block--left">
                 <h1>Cosmology</h1>
-                <date>May 16, 2023 - June 16, 2024</date>
+                <p class="date">May 16 - June 16, 2024</p>
             </div>
             <p class="exhibition__block--right">Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky
-                Above Us’, explores the night
-                sky and what we can see and know about the universe around us. We’ll locate the various constellations
-                andgalaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.
-                <a href="explore.html" class="read__more">Read more...</a>
+                Above
+                Us’, explores the night sky and what we can
+                see and know about the universe around us. We’ll locate the various constellations andgalaxies that can
+                be seen
+                and learn a bit about the early navigators who used the stars to travel by. <br><a href="explore.html"
+                    class="read__more">Read more...</a>
             </p>
         </div>
         <hr>
         <div class="exhibition__block">
             <div class="exhibition__block--left">
                 <h1>Evolution</h1>
-                <date>May 16, 2023 - June 16, 2024</date>
+                <p class="date">May 16 - June 16, 2024</p>
             </div>
-            <p class="exhibition__block--right">
-                Discover the origins of life on this planet and how the species we know today have evolved our time. You
-                can also take some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth,
-                the Dodos,and a number of dinosaurs too.
-                <a href="explore.html" class="read__more">Read more...</a>
+            <p class="exhibition__block--right">Discover the origins of life on this planet and how the species we know
+                today
+                have evolved our time. You can also take
+                some time to meet a few of the creatures who didn’t survive, including our Woolly Mammoth, the Dodos,and
+                a
+                number of dinosaurs too.
             </p>
         </div>
         <hr>
         <div class="exhibition__block">
             <div class="exhibition__block--left">
                 <h1>Biology and Medicine</h1>
-                <date>May 16, 2023 - June 16, 2024</date>
+                <p class="date">May 16 - May 20, 2024</p>
             </div>
-            <p class="exhibition__block--right"> From micro-organisms to the human body, major breakthroughs in biology
-                are offering us unique insights into the great wonders of the tiny world.For many people their life
-                expectancy is much longer and their quality of life much improved, thanks to
-                the growth of our understanding of medicine.
-                <a href="explore.html" class="read__more">Read more...</a>
+            <p class="exhibition__block--right">From micro-organisms to the human body, major breakthroughs in biology
+                are
+                offering us unique insights into the great
+                wonders of the tiny world.For many people their life expectancy is much longer and their quality of life
+                much
+                improved,thanks to the growth of our understanding of medicine.
             </p>
         </div>
         <hr>
         <div class="exhibition__block">
             <div class="exhibition__block--left">
                 <h1>AI Robotics</h1>
-                <date>May 16, 2023 - June 16, 2024</date>
+                <p class="date">May 16 - June 16, 2024</p>
             </div>
             <p class="exhibition__block--right">The information revolution is here and robotics and artificial
-                intelligence are the science of the future. From useful
+                intelligence
+                are the science of the future. From useful
                 home applications of AI to industrial uses of robotics, the future is here. You can even say hello and
-                shake the hand of Rob the Robot.
-                <a href="explore.html" class="read__more">Read more...</a>
+                shake the
+                hand of Rob the Robot.
 
             </p>
         </div>
         <hr>
     </section>
-    <!--footer section starts here-->
+
     <footer>
         <div class="container">
             <div class="footer__navbar">
                 <div class="logo-text">
-                    <img class="project-logo" src="src/images/logo.jpg" alt="">
-                    <h4>SCMMuseum</h4>
+                    <img class="project-logo" src="src/images/logo.jpg" alt="logo of the website">
+                    <h3>Museum</h3>
                 </div>
                 <div class="footer__navbar--options">
-                    <a href="index.html">Home</a>
-                    <a href="explore.html">Explore</a>
-                    <a href="visit.html">Visit</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="index.html" class="home">Home</a>
+                    <a href="about.html" class="explore">About</a>
+                    <a href="gallery.html" class="visit">Visit</a>
+                    <a href="contact.html" class="contact">Contact</a>
                 </div>
             </div>
             <address>Art & Science Museum <br>
@@ -142,7 +154,8 @@
             </div>
         </div>
     </footer>
-    <!--footer section ends here-->
+
 </body>
+<script src="src/main.js"></script>
 
 </html>

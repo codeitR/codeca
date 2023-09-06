@@ -35,13 +35,9 @@
   gap: 10px;
 }
 
-.nav-items {
-  display: flex;
-  gap: 20px;
-}
-
 .responsive-image {
   width: 100%;
+  /* height: auto; */
   border-radius: 6px;
 }
 
@@ -54,39 +50,82 @@
   display: flex;
   gap: 10px;
 }
+
 .socials-copyright {
   display: flex;
   justify-content: space-between;
 }
+
 footer {
   background-color: #292625;
   color: white;
   padding: 40px 0;
 }
+
 .footer__navbar {
   display: flex;
   justify-content: space-between;
 }
+
 .footer__navbar--options {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
-.footer__navbar--options a {
+button {
+  cursor: pointer;
+}
+
+.blue-button {
+  border: 1px solid #374f69;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #374f69;
+  border-radius: 12em;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.green-button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #3fa752;
   color: white;
-  text-decoration: none;
-  font-size: 12px;
+  border-radius: 4px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+hr {
+  margin: 20px 0;
 }
 
 address {
-  font-weight: 200;
-  font-size: 12px;
+  font-weight: 300;
   margin: 30px 0;
 }
-.copyright {
-  font-size: 12px;
-  font-weight: 200;
+
+.footer__navbar--options a {
+  text-decoration: none;
+  color: white;
+}
+
+/**
+* ! Style rules for the navbar are here
+**/
+
+.navbar__icons {
+  display: none;
+}
+
+.options {
+  display: flex;
+  gap: 20px;
+}
+
+.hide {
+  display: none;
 }
 
 @media (max-width: 1680px) {
@@ -107,6 +146,38 @@ address {
     padding: 0 12px !important;
   }
 }
+
+@media (max-width: 768px) {
+  .options {
+    background-color: white;
+    position: absolute;
+    opacity: 100%;
+    top: 100px;
+    right: 0;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .options a {
+    color: black;
+  }
+
+  .navbar__icons {
+    display: block !important;
+    font-size: 30px;
+  }
+
+  .hidden {
+    z-index: -1;
+    opacity: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .footer__navbar {
     display: flex;
