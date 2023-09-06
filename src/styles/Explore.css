@@ -1,36 +1,46 @@
-#logo__expo {
-  color: #000;
+.text-in-logo {
+  color: black !important;
 }
 
 .nav-items a {
-  text-decoration: none;
-  color: black;
+  color: black !important;
 }
-.section__two {
+
+section {
+  padding: 30px 0;
+}
+
+.hero_section_text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  padding: 30px 0;
   align-items: center;
-  padding: 50px 0px;
-  gap: 25px;
+  gap: 20px;
 }
 
-.section__two--left h1 {
-  font-weight: 600;
-  font-size: 35px;
-  color: #374f69;
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-.section__two--left p {
-  padding-top: 5px;
-  font-weight: 300;
-  font-size: 17px;
+.bi-list,
+.bi-x {
+  color: black;
+  font-size: 25px;
 }
 
-.section__two--left button {
-  border: 2px solid #6d92b6;
-  padding: 10px 25px;
-  border-radius: 25px;
-  margin-top: 15px;
-  font-size: 15px;
-  background-color: #fff;
+@media (max-width: 981px) {
+  .hero_section_text {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+@media (max-width: 580px) {
+  .for__kids {
+    grid-template-columns: repeat(1, 1fr);
+  }
