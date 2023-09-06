@@ -19,6 +19,9 @@
   color: white;
 }
 
+.text-in-logo {
+  color: black;
+}
 .navbar a {
   text-decoration: none;
   color: black;

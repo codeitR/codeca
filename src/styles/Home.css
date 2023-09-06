@@ -11,6 +11,9 @@
   justify-content: center;
   align-items: center; */
 }
+.text-in-logo {
+  color: white;
+}
 .navbar a {
   text-decoration: none;
   color: white;
