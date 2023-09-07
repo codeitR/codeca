@@ -68,9 +68,9 @@
   gap: 25px;
 }
 
-.section__two--left h1 {
-  font-weight: 550;
-  font-size: 30px;
+.section__two--left h2 {
+  /* font-weight: 550; */
+  font-size: 25px;
   color: #374f69;
 }
 
@@ -93,9 +93,12 @@
 
 .involved__block--right {
   flex-grow: 4;
-  margin: 2px;
+  margin: 6px;
+  font-size: 14px !important;
 }
-
+.responsive-image {
+  height: 80% !important;
+}
 .date {
   font-size: 12px;
   color: #808080;
