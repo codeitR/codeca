@@ -100,8 +100,10 @@
   height: 80% !important;
 }
 .date {
-  font-size: 12px;
-  color: #808080;
+  font-size: 9px;
+  color: #2d2d2d;
+  margin: 1px;
+  padding: 4px 4px;
 }
 
 .exhibition-image {
