@@ -2,7 +2,7 @@
   background-image: url("../images/mammoth-image-dark-filter.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   background-position: center left;
 
   /* this is used to change position of the text */
@@ -31,7 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
 }
 .blue-button {
   font-size: 16px !important;
@@ -100,10 +100,14 @@
   height: 80% !important;
 }
 .date {
-  font-size: 9px;
-  color: #2d2d2d;
-  margin: 1px;
-  padding: 4px 4px;
+  border: 1px solid #9a9999;
+  color: rgb(103, 102, 102);
+  text-align: center;
+  border-radius: 20px;
+  width: 110px;
+  padding: 6px 8px;
+  /* margin: 0px auto; */
+  font-size: 8px;
 }
 
 .exhibition-image {
@@ -133,6 +137,11 @@
 }
 @media (max-width: 580px) {
   .hero_section_title {
-    font-size: 28px;
+    font-size: 22px;
+  }
+  .hero_section_text {
+    height: 100%;
+    padding-top: 20px;
+    margin: 6px;
   }
 }

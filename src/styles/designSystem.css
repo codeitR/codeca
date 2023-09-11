@@ -86,8 +86,7 @@ button {
   cursor: pointer;
 }
 
-.blue-button,
-.date {
+.blue-button {
   border: 1px solid #374f69;
   padding: 8px 18px;
   background-color: transparent;
