@@ -1,16 +1,27 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const cards = document.querySelectorAll(".card")
-  let currentCard = 0
+let currentSlide = 0
+const cards = document.querySelectorAll(".card")
+const prevButton = document.querySelector(".prev")
+const nextButton = document.querySelector(".next")
 
-  function showCard(index) {
-    cards.forEach((card) => card.classList.remove("active"))
-    cards[index].classList.add("active")
-  }
+function showSlide(index) {
+  cards.forEach((card, i) => {
+    if (i === index) {
+      card.style.display = "block"
+    } else {
+      card.style.display = "none"
+    }
+  })
+}
 
-  function nextCard() {
-    currentCard = (currentCard + 1) % cards.length
-    showCard(currentCard)
-  }
+function prevSlide() {
+  currentSlide = (currentSlide - 1 + cards.length) % cards.length
+  showSlide(currentSlide)
+}
 
-  setInterval(nextCard, 3000) // Change card every 3 seconds
-})
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % cards.length
+  showSlide(currentSlide)
+}
+
+// Initial display
+showSlide(currentSlide)
