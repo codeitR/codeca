@@ -1,4 +1,4 @@
-/* .text-in-logo {
+.text-in-logo {
   color: white;
 }
 .navbar a {
@@ -10,10 +10,10 @@
 .bi-x {
   color: white;
   font-size: 30px;
-} */
+}
 
 .section__hero {
-  background-image: url("../images/genoa-956405_1920.jpg");
+  background: linear-gradient(65deg, #948ff4 31.84%, #2c23dd 68.16%), #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
