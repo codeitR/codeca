@@ -118,6 +118,8 @@
   margin-bottom: 20px;
 }
 
+/* css styling in cousel */
+
 @media (max-width: 980px) {
   .section__two {
     grid-template-columns: repeat(1, 1fr);

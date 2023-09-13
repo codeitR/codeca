@@ -2,9 +2,9 @@
   color: black !important;
 }
 
-.nav-items a {
-  color: black !important;
-}
+/* .nav-items a {
+  color: rgb(255, 255, 255) !important;
+} */
 .bi-list,
 .bi-x {
   color: black;
@@ -82,4 +82,6 @@
 
 .carousel-container .next {
   right: 0;
+}
+@media (max-width: 768px) {
 }
