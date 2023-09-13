@@ -1,3 +1,17 @@
+.text-in-logo {
+  color: white;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.bi-list,
+.bi-x {
+  color: white;
+  font-size: 30px;
+}
+
 .section__hero {
   background-image: url("../images/2305.w063.n005.120B.p1.120-min\ 2.jpg");
   background-repeat: no-repeat;
@@ -7,7 +21,6 @@
 }
 .hero__text {
   text-align: center;
-
   margin-top: 10vh;
 }
 .logic {
@@ -15,7 +28,6 @@
   justify-content: center;
   align-items: center;
   height: 85vh;
-  /* background-color: #f0f0f0; */
 }
 .carousel-container {
   width: 80%;
@@ -27,13 +39,13 @@
 .carousel {
   display: flex;
   transition: transform 0.5s ease;
+  /* border: 2px solid red; */
 }
 
 .card {
-  flex: 0 0 100%;
   padding: 20px;
   text-align: center;
-  background-color: #fff;
+  background-color: #f8984e;
 }
 
 .card img {
@@ -49,29 +61,15 @@
 .carousel-container .prev,
 .carousel-container .next {
   cursor: pointer;
-  position: absolute;
-  top: 70%;
-  transform: translateY(-50%);
+  top: 50%;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #f8984e;
   color: #000000;
   font-size: 16px;
   border: none;
   outline: none;
-  transition: background-color 0.3s ease;
+  /* transition: background-color 0.3s ease; */
 }
 
-.carousel-container .prev:hover,
-.carousel-container .next:hover {
-  background-color: #ffffff;
-}
-
-.carousel-container .prev {
-  left: 0;
-}
-
-.carousel-container .next {
-  right: 0;
-}
 @media (max-width: 768px) {
 }

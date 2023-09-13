@@ -70,7 +70,9 @@
 }
 
 footer {
-  background-color: #292625;
+  background-image: url(../images/2305.w063.n005.120B.p1.120-min\ 2.jpg);
+
+  /* background-color: #292625; */
   color: white;
   padding: 40px 0;
 }

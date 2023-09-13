@@ -9,6 +9,11 @@ section {
   padding-bottom: 10px;
 }
 
+.navbar {
+  width: 100% !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .contact__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
