@@ -1,4 +1,4 @@
-.text-in-logo {
+/* .text-in-logo {
   color: white;
 }
 .navbar a {
@@ -10,19 +10,35 @@
 .bi-x {
   color: white;
   font-size: 30px;
-}
+} */
 
 .section__hero {
-  background-image: url("../images/2305.w063.n005.120B.p1.120-min\ 2.jpg");
+  background-image: url("../images/genoa-956405_1920.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 95%;
-  height: 40vh;
+  height: 50vh;
 }
 .hero__text {
   text-align: center;
   margin-top: 10vh;
 }
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.about__us {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: green;
+}
+.about__us--text {
+  text-align: center;
+  margin: 1vh 10vw;
+}
+
 .logic {
   display: flex;
   justify-content: center;
