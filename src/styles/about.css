@@ -1,19 +1,9 @@
-.text-in-logo {
-  color: black !important;
-}
-
-/* .nav-items a {
-  color: rgb(255, 255, 255) !important;
-} */
-.bi-list,
-.bi-x {
-  color: black;
-  font-size: 30px;
-}
-
 .section__hero {
-  background-color: rgb(255, 137, 2);
-  height: 15vh;
+  background-image: url("../images/2305.w063.n005.120B.p1.120-min\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 95%;
+  height: 40vh;
 }
 .hero__text {
   text-align: center;
