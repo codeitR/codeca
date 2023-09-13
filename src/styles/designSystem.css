@@ -11,7 +11,7 @@
 }
 
 .navbar {
-  padding-top: 30px;
+  padding-top: 25px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -154,14 +154,14 @@ address {
 
 @media (max-width: 1280px) {
   .container {
-    max-width: 1150px;
+    max-width: 950px;
   }
 }
 
 @media (max-width: 980px) {
   .container {
     max-width: 890px;
-    padding: 0 30px !important;
+    padding: 10px 20px !important;
   }
 }
 
