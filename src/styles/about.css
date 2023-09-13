@@ -13,7 +13,7 @@
 }
 
 .section__hero {
-  background: linear-gradient(65deg, #948ff4 31.84%, #2c23dd 68.16%), #ffffff;
+  background: linear-gradient(65deg, #231d95 31.84%, #56547f 68.16%), #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
   height: 50vh;
@@ -22,21 +22,18 @@
   text-align: center;
   margin-top: 10vh;
 }
-.header {
+.about-head {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
+  padding: 10vh 10rem;
+  color: white;
 }
-.about__us {
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 2px;
   text-transform: capitalize;
   font-size: 2rem;
-  color: green;
-}
-.about__us--text {
-  text-align: center;
-  margin: 1vh 10vw;
 }
 
 .logic {
@@ -61,7 +58,6 @@
 .card {
   padding: 20px;
   text-align: center;
-  background-color: #f8984e;
 }
 
 .card img {
@@ -79,7 +75,7 @@
   cursor: pointer;
   top: 50%;
   padding: 10px;
-  background-color: #f8984e;
+  background-color: white;
   color: #000000;
   font-size: 16px;
   border: none;
