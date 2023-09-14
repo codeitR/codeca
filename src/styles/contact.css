@@ -11,9 +11,7 @@ section {
 
 .navbar {
   width: 100% !important;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
 .contact__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -32,7 +30,9 @@ section {
 }
 
 .contact_us_form {
-  width: 100%;
+  width: 60%;
+  border: 1px solid #9f2321;
+
   padding: 20px;
 
   border-radius: 5px;

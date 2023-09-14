@@ -16,11 +16,10 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: black;
 }
 .navbar a:hover {
   text-decoration: underline;
-  color: rgb(175, 185, 189);
 }
 
 .text-in-logo {

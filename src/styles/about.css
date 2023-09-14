@@ -14,10 +14,54 @@
 
 .section__hero {
   background: linear-gradient(65deg, #231d95 31.84%, #56547f 68.16%), #ffffff;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
+  height: 40vh;
 }
+
+.section__hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 50vh;
+  right: 0;
+  left: 0;
+  background-color: red;
+  transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+}
+
+.section__hero::after {
+  content: "";
+  position: absolute;
+  top: 50vh;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #231d95;
+  transform: skewY(2deg);
+  -webkit-transform: skewY(2deg);
+}
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.hero__logo img {
+  width: 100%;
+  height: auto;
+}
+
 .hero__text {
   text-align: center;
   margin-top: 10vh;

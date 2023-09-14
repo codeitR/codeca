@@ -1,37 +1,16 @@
 .section__hero {
-  background-image: url("../images/mammoth-image-dark-filter.png");
+  background-image: url("../images/exhibition-1863344_1920.jpg");
+  /* background-image: url("../images/mammoth-image-dark-filter.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vh;
   background-position: center left;
+}
 
-  /* this is used to change position of the text */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
-}
-.text-in-logo {
-  color: white;
-}
-.navbar a {
-  text-decoration: none;
-  color: white;
-}
-/* .underline:hover {
-  color: bisque;
-  text-decoration: underline;
-} */
-
-.bi-list,
-.bi-x {
-  color: white;
-  font-size: 30px;
-}
 .hero_section_text {
   text-align: center;
-  color: white;
-  height: 100vh;
+  color: black;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,17 +27,17 @@
 }
 
 .hero_section_button {
-  border: 1px solid #c11411;
+  border: 1px solid #d50f75;
   background-color: transparent;
-  color: #fff;
   border-radius: 25px;
-  padding: 9px 36px;
+  padding: 9px 30px;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
 }
 .hero_section_button:hover {
-  background-color: #9f2321;
+  border: 1px solid #005fcc;
+  color: #005fcc;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
@@ -104,8 +83,8 @@
   height: 80% !important;
 }
 .date {
-  border: 1px solid #9a9999;
-  color: rgb(103, 102, 102);
+  border: 1px solid #4a4949;
+  color: rgb(73, 72, 72);
   text-align: center;
   border-radius: 20px;
   width: 110px;
