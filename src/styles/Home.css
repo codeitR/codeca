@@ -1,5 +1,5 @@
 .section__hero {
-  background-image: url("../images/exhibition-1863344_1920.jpg");
+  background-image: url("../images/exhibition_main.png");
   /* background-image: url("../images/mammoth-image-dark-filter.png"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,7 +9,7 @@
 
 .hero_section_text {
   text-align: center;
-  color: black;
+  color: white;
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -22,22 +22,22 @@
 
 .hero_section_title {
   font-size: 35px;
-  margin: 8px 0;
+  /* margin: 25px 0; */
   font-weight: 700;
 }
 
 .hero_section_button {
-  border: 1px solid #d50f75;
+  border: 1px solid #1eff00;
   background-color: transparent;
   border-radius: 25px;
-  padding: 9px 30px;
-  font-size: 18px;
-  font-weight: 500;
+  padding: 9px 25px;
+  color: white;
+  font-size: 16px;
+  /* font-weight: 500; */
   cursor: pointer;
 }
 .hero_section_button:hover {
-  border: 1px solid #005fcc;
-  color: #005fcc;
+  border: 1px solid #ff031c;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
@@ -47,14 +47,24 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  padding: 30px 0px;
+  padding: 10px 0px;
   gap: 25px;
 }
 
 .section__two--left h2 {
-  /* font-weight: 550; */
+  margin-top: -50px;
   font-size: 25px;
-  color: #374f69;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.responsive-image {
+  height: 350px;
+  width: 100%;
+}
+
+.exhibition-image {
+  margin-bottom: 20px;
 }
 
 .section__two--left p {
@@ -75,26 +85,27 @@
 }
 
 .involved__block--right {
-  flex-grow: 4;
   margin: 6px;
-  font-size: 14px !important;
+  font-size: 16px !important;
 }
-.responsive-image {
-  height: 80% !important;
+.involved__block--left {
+  flex-grow: 1;
+}
+h1 {
+  font-size: 30px;
+}
+ol li {
+  margin: 10px 0 0 20px;
+  font-size: 14px;
 }
 .date {
   border: 1px solid #4a4949;
-  color: rgb(73, 72, 72);
   text-align: center;
   border-radius: 20px;
   width: 110px;
   padding: 6px 8px;
   /* margin: 0px auto; */
   font-size: 8px;
-}
-
-.exhibition-image {
-  margin-bottom: 20px;
 }
 
 /* css styling in cousel */

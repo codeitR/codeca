@@ -1,14 +1,12 @@
 .visitUs {
-  background-image: url("../images/celso-405219.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-  padding-top: 40px;
-  height: 20vh;
-  margin: 0 auto;
-  font-size: 25px;
-  color: white;
+  /* padding-top: 40px; */
+  /* height: 20vh; */
+  /* margin: 0 auto; */
+  /* font-size: 16px; */
+  /* color: white; */
   text-align: center;
 }
 
