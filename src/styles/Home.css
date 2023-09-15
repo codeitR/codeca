@@ -9,8 +9,9 @@
 
 .hero_section_text {
   text-align: center;
-  color: white;
-  height: 70vh;
+  color: rgb(0, 0, 0);
+  height: 40vh;
+  opacity: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,17 +45,8 @@
   border: 1px solid #9f2321;
   color: #9f2321;
 }
-.section__two {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 30px;
-  align-items: inline-start;
-  padding: 20px 0px;
-  gap: 30px;
-}
 
 .section__two--left h2 {
-  margin-top: -30px;
   font-size: 25px;
   text-transform: uppercase;
   color: #000000;
@@ -101,7 +93,7 @@
   flex-grow: 1;
 }
 h1 {
-  font-size: 30px;
+  font-size: 25px;
 }
 ol li {
   margin: 10px 0 0 20px;
@@ -145,6 +137,7 @@ ol li {
     width: 80%;
   }
 }
+
 @media (max-width: 580px) {
   .hero_section_title {
     font-size: 22px;

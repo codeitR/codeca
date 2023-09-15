@@ -56,8 +56,13 @@ th {
   margin-bottom: 18px;
 }
 
-@media (max-width: 981px) {
+@media (max-width: 768px) {
+  .section__two {
+    grid-template-columns: 1fr;
+  }
+}
+/* @media (max-width: 981px) {
   .map-address {
     grid-template-columns: repeat(1, 1fr);
   }
-}
+} */
