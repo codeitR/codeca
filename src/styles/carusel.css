@@ -1,0 +1,48 @@
+.logic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.carousel-container {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  /* border: 2px solid red; */
+}
+
+.card {
+  margin: 20px auto;
+  text-align: start;
+}
+
+.card img {
+  max-width: 80%;
+  height: auto;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: start;
+}
+
+/* Navigation buttons (optional) */
+.carousel-container .prev,
+.carousel-container .next {
+  cursor: pointer;
+  top: 50%;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  /* transition: background-color 0.3s ease; */
+}

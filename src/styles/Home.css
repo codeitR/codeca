@@ -37,7 +37,8 @@
   cursor: pointer;
 }
 .hero_section_button:hover {
-  border: 1px solid #ff031c;
+  border: 1px solid black;
+  color: black;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
@@ -46,9 +47,10 @@
 .section__two {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
   align-items: center;
-  padding: 10px 0px;
-  gap: 25px;
+  padding: 20px 0px;
+  gap: 30px;
 }
 
 .section__two--left h2 {
@@ -59,17 +61,23 @@
 }
 
 .responsive-image {
-  height: 350px;
+  height: auto;
   width: 100%;
 }
 
 .exhibition-image {
   margin-bottom: 20px;
 }
+.getinvolved_img {
+  height: 470px;
+  margin-top: 10px;
+  object-fit: cover;
+}
 
 .section__two--left p {
   font-weight: 300;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .exhibition__block {
@@ -130,6 +138,11 @@ ol li {
   .exhibition__block {
     grid-template-columns: 1fr;
   }
+  .getinvolved_img {
+    height: 450px;
+    margin-left: 55px;
+    width: 80%;
+  }
 }
 @media (max-width: 580px) {
   .hero_section_title {
@@ -139,5 +152,11 @@ ol li {
     height: 100%;
     padding-top: 20px;
     margin: 6px;
+  }
+
+  .getinvolved_img {
+    height: 300px;
+    margin-left: 0px;
+    width: 100%;
   }
 }
