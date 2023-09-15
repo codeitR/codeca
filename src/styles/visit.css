@@ -1,68 +1,13 @@
-.visitUs {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  /* padding-top: 40px; */
-  /* height: 20vh; */
-  /* margin: 0 auto; */
-  /* font-size: 16px; */
-  /* color: white; */
-  text-align: center;
+.blue-button:hover {
+  border: 1px solid #e72907;
+  color: #e72907;
 }
 
-.map-address {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  gap: 20px;
-  background-color: aquamarine;
-  padding: 10px 40px;
+.day {
+  float: left;
 }
-.left {
-  font-size: 18px;
-  text-align: left;
-}
-.opening-hours-text {
-  font-size: 18px;
-  text-align: center;
-  margin-top: 40px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th,
-td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: center;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
-}
-
-th {
-  font-weight: bold;
-}
-
-.opening-hours-text {
-  margin-bottom: 18px;
-}
-
 @media (max-width: 768px) {
   .section__two {
     grid-template-columns: 1fr;
   }
 }
-/* @media (max-width: 981px) {
-  .map-address {
-    grid-template-columns: repeat(1, 1fr);
-  }
-} */
