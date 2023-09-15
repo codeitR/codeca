@@ -48,13 +48,13 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 30px;
-  align-items: center;
+  align-items: inline-start;
   padding: 20px 0px;
   gap: 30px;
 }
 
 .section__two--left h2 {
-  margin-top: -50px;
+  margin-top: -30px;
   font-size: 25px;
   text-transform: uppercase;
   color: #000000;
@@ -69,6 +69,7 @@
   margin-bottom: 20px;
 }
 .getinvolved_img {
+  align-items: inline-end;
   height: 470px;
   margin-top: 10px;
   object-fit: cover;
