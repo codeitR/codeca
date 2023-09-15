@@ -5,6 +5,7 @@
 
 @media (max-width: 768px) {
   .section__two {
+    display: grid;
     grid-template-columns: 1fr;
   }
 }
