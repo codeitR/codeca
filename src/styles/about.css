@@ -1,8 +1,6 @@
-.getinvolved_btn {
+.blue-button {
+  border-radius: 12em;
 }
-.getinvolved_img {
-}
-
 @media (max-width: 768px) {
   .section__two {
     display: grid;

@@ -80,26 +80,25 @@
 }
 
 button {
+  padding: 8px 18px;
+  font-size: 14px;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .blue-button {
   border: 1px solid #374f69;
-  padding: 8px 18px;
   background-color: transparent;
   color: #374f69;
-  border-radius: 12em;
   margin-top: 10px;
+  border-radius: 2px;
 }
 
 .green-button {
   border: none;
-  padding: 8px 18px;
   background-color: #3fa752;
   color: white;
   border-radius: 4px;
-  margin-top: 15px;
-  font-size: 16px;
 }
 
 hr {

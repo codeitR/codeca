@@ -17,9 +17,6 @@
   justify-content: center;
   align-items: left;
 }
-.blue-button {
-  font-size: 16px !important;
-}
 
 .hero_section_title {
   font-size: 35px;
@@ -34,8 +31,6 @@
   padding: 9px 25px;
   color: white;
   font-size: 16px;
-  /* font-weight: 500; */
-  cursor: pointer;
 }
 .hero_section_button:hover {
   border: 1px solid black;
@@ -44,6 +39,15 @@
 .blue-button:hover {
   border: 1px solid #9f2321;
   color: #9f2321;
+}
+
+a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+.donate {
+  color: red;
 }
 
 .section__two--left h2 {
@@ -58,7 +62,7 @@
 }
 
 .exhibition-image {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 .getinvolved_img {
   align-items: inline-end;
@@ -67,20 +71,6 @@
   object-fit: cover;
 }
 
-.section__two--left p {
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.exhibition__block {
-  display: grid;
-  grid-template-columns: 0.25fr 1fr;
-}
-.exhibition__block--right {
-  font-size: 14px;
-  font-weight: 400;
-}
 .exhibition__block--left {
   flex-grow: 1;
 }
@@ -93,19 +83,19 @@
   flex-grow: 1;
 }
 h1 {
-  font-size: 25px;
+  font-size: 24px;
 }
 ol li {
   margin: 10px 0 0 20px;
   font-size: 14px;
 }
 .date {
+  margin: 2px;
   border: 1px solid #4a4949;
   text-align: center;
   border-radius: 20px;
   width: 110px;
   padding: 6px 8px;
-  /* margin: 0px auto; */
   font-size: 8px;
 }
 
