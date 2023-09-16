@@ -197,6 +197,7 @@ address {
 .options {
   display: flex;
   gap: 20px;
+  text-transform: capitalize;
 }
 
 .hide {

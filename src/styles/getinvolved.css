@@ -1,28 +1,18 @@
 .section__hero {
-  background-image: url("../images/getinvolved_main.png");
+  background-image: url("../images/science-2799817-min\ 1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 45vh;
   background-position: center;
 }
 
 .hero_section_text {
   text-align: center;
-  color: rgb(0, 0, 0);
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   margin: 50px 10px;
   justify-content: center;
   align-items: center;
-}
-h1,
-h2 {
-  display: flex;
-  font-size: 1.5em;
-  /* background-color: rgba(255, 255, 255, 0.25); */
-  padding: 2px 0px;
-  margin: 0px;
 }
 
 /* Content */
@@ -31,20 +21,19 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  background-color: rgba(63, 166, 82, 0.25);
   padding: 10px;
 }
 .card:hover {
   cursor: pointer;
-  box-shadow: 3px 2px 2px 1px rgba(8, 143, 211, 0.5);
+  box-shadow: 1px 0px 2px 1px #088fd380;
 }
 
 .support,
 .volunteer,
 .internship {
-  background-color: #fff;
+  border: 1px solid #088fd380;
   border-radius: 6px;
-  width: 320px;
+  width: 300px;
   padding-bottom: 10px;
   margin: 10px auto;
 }
@@ -52,9 +41,9 @@ h2 {
 .support_text,
 .volunteer_text,
 .internship_text {
-  width: 280px;
-  padding: 1px;
-  margin: 0px auto;
+  width: 275px;
+  padding: 4px;
+  margin: 0 auto;
 }
 
 /* Support */
