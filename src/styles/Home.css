@@ -33,7 +33,7 @@
   border-radius: 25px;
   padding: 5px 10px;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
 }
 .hero_section_button:hover {
   border: 1px solid white;
@@ -45,6 +45,7 @@
 }
 
 a {
+  font-size: 18px;
   display: inline-block;
   text-decoration: none;
 }
@@ -53,7 +54,7 @@ a {
 }
 
 .section__two--left h2 {
-  font-size: 25px;
+  font-size: 30px;
 
   color: #000000;
 }
