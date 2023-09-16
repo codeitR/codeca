@@ -1,5 +1,5 @@
 .section__hero {
-  background-image: url("../images/mammoth-image-dark-filter.png");
+  background-image: url("../images/getinvolved_main.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 70vh;
@@ -30,12 +30,13 @@ h2 {
 .content__card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 10px;
   background-color: rgba(63, 166, 82, 0.25);
   padding: 10px;
 }
-.support:hover {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5);
+.card:hover {
+  cursor: pointer;
+  box-shadow: 3px 2px 2px 1px rgba(8, 143, 211, 0.5);
 }
 
 .support,
