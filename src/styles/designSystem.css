@@ -228,7 +228,7 @@ address {
 
 @media (max-width: 768px) {
   .options {
-    background-color: rgb(0, 0, 0);
+    background-color: #066b14;
     position: absolute;
     opacity: 90%;
     top: 100px;

@@ -1,0 +1,18 @@
+.section__hero {
+  background-image: url("../images/underconst.png") !important;
+  /* background-image: url("../images/mammoth-image-dark-filter.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: center left;
+}
+.hero_section_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: center;
+  /* background: linear-gradient(65deg, #5650bb 31.84%, #56547f 68.16%), #ffffff; */
+  height: 70vh;
+  /* opacity: 100%; */
+}

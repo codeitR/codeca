@@ -31,13 +31,13 @@
   border: 1px solid #1eff00;
   background-color: transparent;
   border-radius: 25px;
-  padding: 5px 8px;
+  padding: 5px 10px;
   color: white;
   font-size: 16px;
 }
 .hero_section_button:hover {
-  border: 1px solid black;
-  color: black;
+  border: 1px solid white;
+  color: #1eff00;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
@@ -46,7 +46,6 @@
 
 a {
   display: inline-block;
-  position: relative;
   text-decoration: none;
 }
 .donate {
@@ -55,7 +54,7 @@ a {
 
 .section__two--left h2 {
   font-size: 25px;
-  text-transform: uppercase;
+
   color: #000000;
 }
 
