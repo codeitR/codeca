@@ -10,9 +10,26 @@
   font-family: "Lato", sans-serif;
 }
 .section__hero {
-  background: linear-gradient(65deg, #5650bb 31.84%, #56547f 68.16%), #ffffff;
-  position: relative;
-  height: 15vh;
+  background-image: radial-gradient(
+      130% 100% at top left,
+      transparent 92%,
+      #f4fefe 92.5%
+    ),
+    linear-gradient(135deg, #79c4b6 0%, #3fcfa2 100%);
+  /* }
+  background-image: radial-gradient(
+    at top left,
+    #d6c6bf 30%,
+    #3a33c5 31.84%,
+    transparent 90.5%
+  ); */
+  background-size: 140% 90%;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(65deg, #5650bb 31.84%, #56547f 68.16%), #ffffff; */
+  /* border-bottom-left-radius: 0% 0;
+  border-bottom-right-radius: 0% 0%; */
+  height: 30vh;
+  width: 100%;
 }
 .navbar {
   padding-top: 10px;
@@ -20,7 +37,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  /* color: white; */
 }
 .navbar a:hover {
   text-decoration: underline;
@@ -28,14 +45,14 @@
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
-
+/*
 .bi-list,
 .bi-x {
   color: #01ff2f;
   font-size: 30px;
-}
+} */
 
 .project-logo {
   width: 40px;
@@ -66,9 +83,16 @@
   padding: 20px 30px;
   gap: 30px;
 }
-.section__two--right {
+.section__two--right img {
   box-shadow: 6px 6px 6px rgba(20, 57, 22, 0.3);
 }
+.section__two--left button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
 .involved__block--right {
   font-size: 14px;
   line-height: 1.5rem;
@@ -90,7 +114,7 @@ button {
   border: 1px solid #374f69;
   background-color: transparent;
   color: #374f69;
-  margin-top: 10px;
+  margin: 10px;
   border-radius: 2px;
 }
 
@@ -100,9 +124,27 @@ button {
   color: white;
   border-radius: 4px;
 }
+.button_href {
+  border: 1px solid rgb(21, 176, 137);
+  padding: 8px 12px;
+  margin: 2px;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.button_href:hover {
+  border: 1px solid rgb(210, 11, 44);
+  color: rgb(174, 22, 47);
+}
 
 hr {
   margin: 25px 0;
+}
+
+.involved__block--right {
+  padding-bottom: 20px;
 }
 
 .socials {
@@ -213,7 +255,12 @@ address {
     opacity: 0;
   }
 }
-
+@media (max-width: 799px) {
+  .section__two {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 @media (max-width: 600px) {
   .footer__navbar {
     display: flex;

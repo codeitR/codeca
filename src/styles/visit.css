@@ -6,8 +6,36 @@
 .day {
   float: left;
 }
+
+.section__one {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.opening-hours,
+.admissions,
+.food-and-drinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  height: 130px;
+}
 @media (max-width: 768px) {
-  .section__two {
+  .section__two,
+  .section__one {
     grid-template-columns: 1fr;
   }
 }

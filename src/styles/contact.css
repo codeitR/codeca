@@ -6,6 +6,10 @@
   outline: none;
 }
 
+.contact__container {
+  width: 320px;
+}
+
 .contact_us_form .input_field {
   display: flex;
   flex-direction: column;

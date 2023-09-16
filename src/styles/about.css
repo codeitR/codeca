@@ -1,5 +1,10 @@
 .blue-button {
   border-radius: 12em;
+  margin: 5px;
+  padding-bottom: 7px;
+}
+footer {
+  margin-top: 10px;
 }
 @media (max-width: 768px) {
   .section__two {
