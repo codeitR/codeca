@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCSMuseum|Contact page</title>
-    <meta name="keywords" content="semester-project-1" />
-    <meta name="author" content="Ramesh Ghimire" />
+    <!-- <meta name="keywords" content="semester-project-1" />
+    <meta name="author" content="Ramesh Ghimire" /> -->
     <link rel="stylesheet" href="src/styles/designSystem.css">
     <link rel="stylesheet" href="src/styles/contact.css">
     <link rel="icon" href="src/images/open-science-735787-removebg-preview.png">
@@ -50,15 +50,15 @@
             promptly.
         </p>
         <hr>
-        <button type="button"><a href="getinvolved.html" class="button_href">e-mail us..</a></button>
-        <button type="button"><a href="getinvolved.html" class="button_href">talk to us..</a></button>
+        <a href="#contactForm" class="button_href">e-mail us..</a>
+        <a href="#talkToUs" class="button_href">talk to us..</a>
 
     </div>
 
 </section>
 
 <section class="contact__container container">
-    <h2 class="contact-text">Contact Form:</h2>
+    <h2 class="contact-text" id="contactForm">Contact Form:</h2>
     <div class="contact__grid">
         <div class="contact__grid--left">
             <form class="contact_us_form" action="sent_message.html">
@@ -84,9 +84,7 @@
     </div>
 
 </section>
-
-
-<section class="contact_bottom">
+<section class="contact_bottom" id="talkToUs">
     <h3>General Questions</h3>
     <p>scsm@sanvikacommunity.no
         <br>
@@ -96,9 +94,6 @@
     </p>
 
 </section>
-
-
-
 <footer>
     <div class="container">
         <div class="footer__navbar">
@@ -131,10 +126,7 @@
         </div>
     </div>
 </footer>
-
-<body>
-
-</body>
 <script src="main.js"></script>
+</body>
 
 </html>

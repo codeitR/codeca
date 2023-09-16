@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Community Museum">
-    <meta name="keywords" content="semester-project-1" />
-    <meta name="author" content="Ramesh Ghimire" />
+    <!-- <meta name="keywords" content="semester-project-1" />
+    <meta name="author" content="Ramesh Ghimire" /> -->
     <title>SCSMuseum|Visit us page</title>
     <link rel="stylesheet" href="src/styles/designSystem.css">
     <link rel="stylesheet" href="src/styles/visit.css">
@@ -46,11 +46,10 @@
                 whole family.
             </p>
             <div class="buttons-block">
-                <button type="button"><a href="getinvolved.html" class="button_href">get involve</a></button>
-                <button type="button"><a href="#opening-hours" class="button_href">Opening Hours</a></button>
-                <button type="button"><a href="getinvolved.html" class="button_href">Our Adress:</a></button>
-                <button type="button"><a href="getinvolved.html" class="button_href">Entrence Is Free..</a></button>
-                <button type="button"><a href="getinvolved.html" class="button_href">Food & Drinks</a></button>
+                <a href="#opening-hours" class="button_href">Opening Hours</a>
+                <a href="#loco" class="button_href">Our Address:</a>
+                <a href="#Entrence" class="button_href">Entrence Is Free..</a>
+                <a href="#food&drink" class="button_href">Food & Drinks</a>
             </div>
 
         </div>
@@ -61,7 +60,7 @@
 
     <section class="section__two">
         <div class="section__two--left">
-            <div class="Location">
+            <div class="Location" id="loco">
                 <h2>Our Location</h2>
                 <hr>
                 <h3 class="address__map">Address:</h3>
@@ -77,59 +76,60 @@
             <br><br>
 
             <div class="section__two--right">
-                <img class="responsive-image visit_map" src="./src/images/visit_map.png" alt="image map of oslo" />
+                <img class="responsive-image visit_map" src="./src/images/visit_map.png" alt="map of oslo" />
             </div>
 
         </div>
     </section>
     <br>
-    <section class="container" id="opening-hours">
-        <div class="opening-hours">
-            <h2>Opening Hours: </h2>
-            <table>
-                <tr>
-                    <th class="day">Days</th>
-                    <th>Opening Hours</th>
-                    <hr>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td class="closed">Closed</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>10:00 – 16:00</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>10:00 – 17:00</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>10:00 – 19:00</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>10:00 – 15:00</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>10:00 – 20:00</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>10:00 – 14:00</td>
-                </tr>
+    <hr class="container" id="opening-hours">
+    <div class="opening-hours">
+        <h2>Opening Hours: </h2>
+        <table>
+            <tr>
+                <th class="day">Days</th>
+                <th>Opening Hours</th>
+                <hr>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td class="closed">Closed</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>10:00 – 16:00</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>10:00 – 17:00</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>10:00 – 19:00</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>10:00 – 15:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00 – 20:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>10:00 – 14:00</td>
+            </tr>
 
 
-            </table>
+        </table>
 
-        </div>
-        <hr>
+    </div>
+    <hr>
+    </hr>
     </section>
     <br>
     <br>
-    <section class="container">
+    <section class="container" id="Entrence">
         <div class="admissions">
             <h1>Admission:</h1>
             <hr>
@@ -148,7 +148,7 @@
     </section>
     <br>
     <br>
-    <section class="container">
+    <section class="container" id="food&drink">
         <div class="food-and-drinks">
             <h1>Food and drinks.</h1>
             <hr>
@@ -193,7 +193,8 @@
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
-<script src="main.js"></script>
+
 
 </html>
