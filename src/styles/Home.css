@@ -28,16 +28,16 @@
   width: 190px;
   margin: 0 auto;
   text-transform: capitalize;
-  border: 1px solid #1eff00;
+  border: 1px solid #024d2f;
   background-color: transparent;
   border-radius: 25px;
   padding: 5px 10px;
-  color: white;
+  color: #f3f3f3;
   font-size: 18px;
 }
 .hero_section_button:hover {
-  border: 1px solid white;
-  color: #1eff00;
+  border: 1px solid #f90000;
+  color: #13ea6c;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
