@@ -3,16 +3,23 @@
   /* background-image: url("../images/mammoth-image-dark-filter.png"); */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
-  background-position: center left;
+  height: 70vh;
 }
 .hero_section_text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  text-align: center;
-  /* background: linear-gradient(65deg, #5650bb 31.84%, #56547f 68.16%), #ffffff; */
-  height: 70vh;
-  /* opacity: 100%; */
+  align-items: center;
+  margin: 50px;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  .hero_section_title {
+    color: red;
+  }
+}
+
+.vertical {
+  display: flex;
+  margin: 0 auto;
+  writing-mode: vertical-rl;
+  text-underline-position: left;
 }

@@ -32,7 +32,7 @@
   width: 100%;
 }
 .navbar {
-  padding-top: 10px;
+  padding-top: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -46,13 +46,8 @@
 .navbar a {
   text-decoration: none;
   color: black;
+  font-size: 18px;
 }
-/*
-.bi-list,
-.bi-x {
-  color: #01ff2f;
-  font-size: 30px;
-} */
 
 .project-logo {
   width: 40px;
@@ -116,6 +111,7 @@ button {
   color: #374f69;
   margin: 10px;
   border-radius: 2px;
+  font-size: 18;
 }
 
 .green-button {
@@ -132,7 +128,7 @@ button {
   color: black;
   text-transform: capitalize;
   border-radius: 3px;
-  font-size: 14px;
+  font-size: 18px;
 }
 .button_href:hover {
   border: 1px solid rgb(210, 11, 44);
