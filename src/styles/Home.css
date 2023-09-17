@@ -19,8 +19,7 @@
   height: 60vh;
   text-transform: capitalize;
   color: white;
-
-  /* opacity: 90%; */
+  opacity: 1%;
 }
 
 .hero_section_title {
