@@ -64,19 +64,19 @@
 }
 
 .hero_section_button {
-  width: 190px;
-  margin: 50px auto;
+  width: 180px;
+  margin: 35px auto;
   text-transform: capitalize;
-  border: 1px solid #740808;
+  border: 1px solid #f90000;
   background-color: transparent;
-  border-radius: 25px;
+  border-radius: 4px;
   padding: 6px 9px;
-  color: #0a9f5c;
+  color: #13ea6c;
   font-size: 20px;
 }
 .hero_section_button:hover {
-  border: 1px solid #f90000;
-  color: #13ea6c;
+  border: 1px solid #740808;
+  color: #0a9f5c;
 }
 .blue-button:hover {
   border: 1px solid #9f2321;
