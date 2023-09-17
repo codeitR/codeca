@@ -1,3 +1,10 @@
+.navbar a {
+  color: black !important;
+}
+.logo-text {
+  color: black !important;
+}
+
 .section__hero {
   background-image: url("../images/science-2799817-min\ 1.png");
   background-repeat: no-repeat;
@@ -7,12 +14,12 @@
 }
 
 .hero_section_text {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 10px 10px;
+  text-align: center;
+  /* margin: 10px 10px; */
   justify-content: center;
-  align-items: center;
+  margin-top: 50px;
 }
 
 /* Content */

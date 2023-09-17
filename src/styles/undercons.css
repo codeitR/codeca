@@ -24,3 +24,9 @@
   text-underline-position: auto;
   color: #000;
 }
+.navbar a {
+  color: black;
+}
+.logo-text {
+  color: black;
+}
