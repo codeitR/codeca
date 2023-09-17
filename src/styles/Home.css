@@ -19,10 +19,11 @@
   height: 60vh;
   text-transform: capitalize;
   color: white;
-  opacity: 1%;
+  /* opacity: 60%; */
 }
 
 .hero_section_title {
+  display: contents;
   position: relative;
   font-size: 1.7em;
   letter-spacing: 3px;
@@ -95,7 +96,7 @@ a {
 }
 
 .section__two--left h2 {
-  font-size: 30px;
+  font-size: 25px;
   color: #000000;
 }
 
@@ -169,7 +170,7 @@ a {
 
 @media (max-width: 580px) {
   .hero_section_title {
-    font-size: 22px;
+    font-size: 20px;
   }
   .hero_section_text {
     height: 100%;
