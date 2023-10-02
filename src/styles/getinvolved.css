@@ -4,7 +4,10 @@
 .logo-text {
   color: black !important;
 }
-
+.bi-list,
+bi-x {
+  color: black;
+}
 .section__hero {
   background-image: url("../images/science-2799817-min\ 1.png");
   background-repeat: no-repeat;
